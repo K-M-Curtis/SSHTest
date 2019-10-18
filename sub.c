@@ -5,7 +5,16 @@ int main(void)
 	int a, b, sub;
 	sub = a - b;
 	
-	printf("sub= %d\n", sub);
+	if(a>b)
+	{
+		sub = a - b;
+	}
+	else
+	{
+		sub = b - a;
+	}
+	
+	printf("abs(sub)= %d\n", sub);
 	
 	return 0;
 }

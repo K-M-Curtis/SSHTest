@@ -7,5 +7,7 @@ int main(void)
 	
 	printf("sum= %d\n", sum);
 	
+	printf("hello, I am a bug\n");
+	
 	return 0;
 }

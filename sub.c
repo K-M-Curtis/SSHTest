@@ -15,6 +15,7 @@ int main(void)
 	}
 	
 	printf("abs(sub)= %d\n", sub);
+	printf("AAAAAAAAABBBBBBBBBBBCCCCCCCC\n");
 	
 	return 0;
 }
